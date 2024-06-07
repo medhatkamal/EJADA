@@ -11,7 +11,7 @@ public class XMLToJsonConverter {
    public static void main(String[] args) {
       try {
          // Load the XML file
-         File xmlFile = new File("C:\\Users\\medha\\IdeaProjects\\EJADATask\\src\\main\\resources\\XMLResponseData.xml"); // Update this path if needed
+         File xmlFile = new File("src/main/resources/XMLResponseData.xml"); // Update this path if needed
 
          // Convert XML to JSON
          JSONObject jsonObject = convertXMLToJson(xmlFile);
